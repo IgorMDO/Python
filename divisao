@@ -1,0 +1,16 @@
+# Divisões
+
+x = 94 # definir um valor
+y = 3 # definir um valor
+#x = int(x)
+#y = int(y)
+resp = x / y
+resto = x % y
+respint = x // y
+
+#print(f'A divisão de {x} por {y} é {res}')
+print('O quociente entre %i e %i é %.2f' %(x, y, resp))
+print('O resto entre a divisão de %i por %i é %i' %(x, y, resto))
+print(f'A resposta inteira de {x} por {y} é {respint}')
+
+  # sem comando de entrada
