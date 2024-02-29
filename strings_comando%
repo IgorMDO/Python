@@ -1,0 +1,19 @@
+# declaração e atribuição de variáveis
+nome = input('Digite o seu nome\n')
+ida = input('Insira a idade.\n')
+sal = input('Digite o salário\n')
+
+# conversão de valores
+ida = int(ida)
+sal = float(sal)
+
+# estrutura condicional 
+if sal>= 0 and sal<= 1423:
+    print('Salário baixo')
+elif sal>1423 and sal<= 4000:
+    print('Salário bom')
+else:
+    print('Salário acima do padrão')
+     
+# Bloco fora do código
+print('Seu nome é %s, sua idade é %i e seu salário é %d' %(nome, ida, sal))            
